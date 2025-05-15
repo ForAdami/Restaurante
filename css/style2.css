@@ -1,0 +1,267 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8ca84;
+  }
+
+  
+  /* Estilo para a barra de navegação */
+  nav {
+    background-color:#ed4811;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+  }
+  
+  .menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.5s;
+  }
+  
+  .menu a:hover {
+    color: #e6ee03;
+  }
+
+  
+
+  
+  .titulo {
+    position: relative; /* Define o posicionamento relativo */
+  }
+  
+  .titulo img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .titulo p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: weight 500px;
+    font-size: 50px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #020202;
+    padding: 10px;
+  }
+  
+
+  
+.Apresentação {
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+  }
+  
+  .Apresentação h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para o grid de imagens */
+  .opçoes-marmita {
+    display: grid;
+    justify-content: end;
+    align-items: stretch;
+    grid-template-columns: repeat(2, 1fr); /* Cria 4 colunas */
+    gap: 10px; /* Espaçamento entre as imagens */
+    
+  }
+  
+.fotos-marmita{
+  height: 300px;
+  width: 300px;
+}
+
+  /* Estilo para as imagens */
+  .fotos-marmita img {
+    width:380px; 
+    height: auto; 
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+
+
+  }
+
+.fotos-marmita p{
+font-size: 18px;
+
+}
+
+
+  /* Estilo para o texto ao lado das imagens */
+  .fraseinicial {
+    text-align: left;
+    font-size: 23px;
+  }
+  .fraseinicial img {
+    text-align: right;
+  }
+  .fraseinicial p {
+    padding-right: 20px; 
+  }
+  .buttonsaiba {
+    background-color: #5e43d7 ; 
+    font-size: 20px;
+    transition: background-color 0.5s;
+    } 
+    
+  
+
+  /* Estilo para a seção de destinos */
+.opções {
+  background: linear-gradient(to right, #FFE7C2,#BDACFF);
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .opções h1 {
+    font-size: 30px;
+    margin-bottom: 20;
+    margin-top: -10px;
+  }
+  
+  
+  .opções-mistura {
+   display: grid;
+    grid-template-columns: repeat(4,2fr); repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 10px; 
+    justify-content: center;
+  } 
+
+  .link {
+    text-decoration: none; 
+    color: inherit;
+}
+
+  
+  
+  .mistura {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .mistura img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .mistura div {
+    padding: 20px;
+  }
+  
+  .mistura span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .mistura p {
+    margin-bottom: 10px;
+  }
+  
+  .mistura .valor {
+    margin-bottom: 20px;
+  }
+  
+  .mistura button {
+    background-color: #5e43d7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .mistura button:hover {
+    background-color:#747cfa;
+    transition: color 0.5s;
+  }
+  
+
+  .Cardápio img {
+    background-color: #333;
+    color: white;
+    padding: 50px 40px;
+    text-align: center;
+    max-width: 100%; /
+    max-height: 500px;
+    height: auto;
+    object-fit: contain; 
+}
+
+  .Cardápio h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .Cardápio p{
+    font-size: 25px;
+  }
+  
+.Cardápio {
+    width: 90%; 
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  
+
+
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+
+  .rede-social i {
+    font-size: 32px;
+    margin: 0 10px;
+    transition: background-color 0.5s;
+  }
+  
+  /* Estilo para os ícones de redes sociais */
+  .fa-brands {
+    font-size: 32px;
+    margin: 0 10px;
+  }
+  
+  .rede-social i:hover{
+    background-color: #747cfa;
+  }
